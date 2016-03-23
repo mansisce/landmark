@@ -1,0 +1,47 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+section {
+	width: 700px;
+	margin: auto;
+	border: 1px solid black;
+}
+
+header {
+	text-align: center;
+}
+
+.form-input {
+	padding: 10px;
+	margin-bottom: 15px; 
+}
+.login-reg {
+	margin-left: 40px;
+	display: inline-block;
+	width: 60%;
+	border: 1px solid red;
+}
+
+.social {
+	display: inline-block;	
+	vertical-align: top;	
+}
+
+.social>ul {
+}
+.social>ul>li {
+	list-style: none;
+}
+
+.social>ul>li:first-child:after {
+	content: "or";
+    display: block;
+    padding-right: 18px;
+    margin-left: -23px;
+    margin-bottom: 17px;
+}
+
+
+
