@@ -6,7 +6,12 @@
 	
 	
 	var login = function(){
-		
+	    var validateSuccess = function() {
+			console.log("success with the validation");
+		};
 		return {};
-	}	
+	}
+	
+	
+	
 }());
