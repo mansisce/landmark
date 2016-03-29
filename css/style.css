@@ -6,7 +6,7 @@
 body {
   font-family: "Arial";	
   background-color: #e2e2e2;
-	
+  font-size: 62.5%; /* font-size 1em = 10px on default browser settings */	
 }
 section {
 	width: 32%;
@@ -23,61 +23,69 @@ header {
 }
 
 header>h1 {
-  font-size: 18px;
+  font-size: 1.8em;
   line-height: 1.2;	
+	margin: 0;
+	padding-top: 15px;
+	font-weight: normal;
 }
 header>h2 {
-  font-size: 12px;
-  line-height: 1.2;	
+  font-size: 1.2em;
+  margin: 0;
+  font-weight: normal;	
+  padding-bottom: 15px;
+  line-height: 1.5;		
 }
 
 .form-input {
 	padding: 7px;
-	margin-bottom: 15px; 
-	width: 100%;
+	width: 54%;
 	height: 26px;
+	margin-bottom: 15px;	
 	border-style: solid;
 	border-width: 1px;
 	border-color: rgb(204, 204, 204);
 	box-shadow: 1px 1.732px 2px 0px rgba(255, 255, 255, 0.004);	
-	
+	font-size: 1.2em;
 }
 .login-reg {
-	margin-left: 4%;
-	/*display: inline-block;*/
-	width: 33%;
-	float: left;
+    width: 60%;
+    float: left;
+    padding-left: 4%;
+    padding-top: 35px;		
 }
 
 .social {
 	/*display: inline-block;	*/
 	/*vertical-align: top;	*/
 	float: right;
-	width: 26.5%;	
+	width: 40%;	
+	padding-top: 55px;
 }
 
 .social>ul {
 	padding: 0;
+	margin: 0;
 }
 .social>ul>li {
 	list-style: none;	
 }
 .social>ul>li>a {
-  background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
-  background-image: -webkit-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
-  background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+  background-image: -moz-linear-gradient( 90deg, #bbd0eb 0%, #3867ac 100%);
+  background-image: -webkit-linear-gradient( 90deg, #bbd0eb 0%, #3867ac 100%);
+  background-image: -ms-linear-gradient( 90deg, #bbd0eb 0%, #3867ac 100%);
   box-shadow: inset 0.5px 0.866px 0px 0px rgba(255, 255, 255, 0.68);
   height: 26px;
 	
-  font-size: 11px;
+  font-size: 1.1em;
   color: rgb(255, 255, 255);
   font-weight: bold;
   line-height: 3.706;
   text-align: left;
   text-shadow: 0.5px 0.866px 0px rgba(0, 0, 0, 0.7);
-	border-radius: 30%;
-	
+	border-radius: 20px;		
 }
+
 .social>ul>li:first-child>a {
 	background-color: #80c5f9;
 }
@@ -484,7 +492,4 @@ header>h2 {
 
 
 */
-
-
-
 
